@@ -37,7 +37,7 @@ The query object will be sorting the rows  by date in descending order.
     def by_id(cls, id):
         return DBSession.query(BlogRecord).filter(BlogRecord.id == id).first()
     
-This method will return a single blog entry by id, or None object if nothig is 
+This method will return a single blog entry by id, or None object if nothing is 
 found. 
 
 ::
